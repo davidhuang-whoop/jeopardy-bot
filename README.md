@@ -65,3 +65,7 @@ The slack bot is configured via slack commands. To explore the configuration opt
 ### Persistence
 
 Persistence works out of the box by periodically uploading a dump of the configuration to slack itself. The sync occurs every 5 minutes, and whenever the process is gracefully exited. If the process exits and is unable to sync, it may lose up to 5 minutes of data.
+
+### Wake Up
+
+Slack bot currently loses connection and needs to be redployed on railway with new commits.

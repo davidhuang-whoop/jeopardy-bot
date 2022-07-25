@@ -22,7 +22,7 @@ export default (state = initialState, action: BaseAction) =>
                         clue: 30,
                         challenge: 15,
                         wager: 10,
-                        boardControl: 5,
+                        boardControl: 10,
                     },
                     features: {
                         challenges: true,
